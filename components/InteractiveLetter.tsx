@@ -45,14 +45,14 @@ const InteractiveLetter = forwardRef<InteractiveLetterHandle, InteractiveLetterP
         y: 20, 
         opacity: 0, 
         rotate: -15, 
-        transition: { duration: 0.6, ease: "circOut" } 
+        transition: { duration: 0.6, ease: [0.33, 0.66, 0.66, 1] } 
       },
       slashedRight: { 
         x: 20, 
         y: -20, 
         opacity: 0, 
         rotate: 15, 
-        transition: { duration: 0.6, ease: "circOut" } 
+        transition: { duration: 0.6, ease: [0.33, 0.66, 0.66, 1] } 
       }
     };
 
