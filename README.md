@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Samurai Portfolio | The Code Ronin
 
-## Getting Started
+A high-performance, visually immersive portfolio website embodying the spirit of a modern-day Code Ronin. Built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**, it features cutting-edge animations, a Japanese aesthetic, and smooth interactive elements.
 
-First, run the development server:
+## 🏯 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+-   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Animations**: 
+    -   [Framer Motion](https://www.framer.com/motion/)
+    -   [GSAP](https://gsap.com/)
+-   **Fonts**: [Google Fonts](https://fonts.google.com/) (Inter, Shojumaru, Sawarabi Mincho)
+-   **Icons**: [Lucide React](https://lucide.dev/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚔️ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Bushido Preloader**: A cinematic slashing entrance animation.
+-   **Sakura Rain**: Ambient falling cherry blossom petals.
+-   **Ink Transitions**: Dynamic ink bleed effects for background depth.
+-   **Custom Cursor**: Interactive cursor with trail effects.
+-   **Responsive Design**: Fully optimized for all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/samurai-portfolio.git
+    cd samurai-portfolio
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-## Deploy on Vercel
+## 📜 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and available under the [MIT License](LICENSE).
