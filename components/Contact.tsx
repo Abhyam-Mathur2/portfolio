@@ -28,12 +28,6 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.from_name || !formData.reply_to || !formData.message) return;
-    
-    // Check if keys are configured
-    if (SERVICE_ID === "YOUR_SERVICE_ID") {
-        alert("Please configure your EmailJS keys in components/Contact.tsx");
-        return;
-    }
 
     setStatus("sending");
 
