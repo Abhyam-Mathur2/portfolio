@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, MotionValue, useTransform } from "framer-motion";
+import { motion, MotionValue, useTransform, Variants } from "framer-motion";
 import { useState, forwardRef, useImperativeHandle, useRef } from "react";
 
 interface InteractiveLetterProps {
@@ -38,21 +38,21 @@ const InteractiveLetter = forwardRef<InteractiveLetterHandle, InteractiveLetterP
     const isSpace = char === " ";
 
     // Animation for the "Bot Slash" destruction
-    const slashVariants = {
+    const slashVariants: Variants = {
       idle: { x: 0, y: 0, opacity: 1, rotate: 0 },
       slashedLeft: { 
         x: -20, 
         y: 20, 
         opacity: 0, 
         rotate: -15, 
-        transition: { duration: 0.6, ease: [0.33, 0.66, 0.66, 1] } 
+        transition: { duration: 0.6, ease: [0.33, 0.66, 0.66, 1] as [number, number, number, number] } 
       },
       slashedRight: { 
         x: 20, 
         y: -20, 
         opacity: 0, 
         rotate: 15, 
-        transition: { duration: 0.6, ease: [0.33, 0.66, 0.66, 1] } 
+        transition: { duration: 0.6, ease: [0.33, 0.66, 0.66, 1] as [number, number, number, number] } 
       }
     };
 
