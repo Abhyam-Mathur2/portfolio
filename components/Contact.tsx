@@ -96,7 +96,7 @@ export default function Contact() {
             </motion.a>
 
             <motion.a
-              href="https://github.com/Abhyam-Mathur"
+              href="https://github.com/Abhyam-Mathur2"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ x: 10 }}
