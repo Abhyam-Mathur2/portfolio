@@ -84,12 +84,12 @@ const projects = [
     variants: castleVariants
   },
   {
-    title: "Agrasar",
-    type: "AI-Powered Rural Services",
-    period: "Nov 2025",
-    tech: ["AI", "Chatbot", "UI/UX"],
-    desc: "AI-powered platform to improve rural access to government schemes. Built GramSathi chatbot for guidance and optimized UI for low-connectivity.",
-    link: "#",
+    title: "Seeker",
+    type: "Career Discovery App for Students",
+    period: "In Development",
+    tech: ["React", "Zustand", "TanStack Query", "Node.js", "Express", "Groq API"],
+    desc: "A career exploration app for Indian students (Class 10+) with a bias-free quiz, interactive path map, AI counselor chat, career comparison, and bookmarks to help students discover options beyond traditional streams.",
+    link: "https://pathseeker.app/",
     color: "from-blue-900 to-black",
     symbol: WarFan,
     variants: warFanVariants

@@ -6,7 +6,7 @@ import DecryptingText from "./DecryptingText";
 const experiences = [
   {
     role: "Tech Intern",
-    company: "Democratic News Live",
+    company: "Rig 360 media",
     period: "Dec 2025 – Present",
     desc: [
       "Contributing to CorruptX, a secure investigative journalism platform.",
